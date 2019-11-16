@@ -26,7 +26,6 @@ def my_hash_creator(key, value)
   my_hash_creator(:color, "blue") = {
     color: "blue"
   }
-
 end
 
 def read_from_hash(hash, key)
