@@ -23,9 +23,10 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator(:item, price) = {
-    apple: 1.00
+  my_hash_creator(:color, "blue") = {
+    color: "blue"
   }
+
 end
 
 def read_from_hash(hash, key)
