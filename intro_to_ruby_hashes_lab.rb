@@ -23,8 +23,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator(:name, 'Cindy') = {
-    :name => 'Cindy'
+  my_hash_creator(:item, price) = {
+    apple: 1.00
   }
 end
 
