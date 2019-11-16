@@ -23,8 +23,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator(:color, "blue") = {
-    color: "blue"
+  my_hash_creator(key, value) = {
+    key: "value"
   }
 end
 
